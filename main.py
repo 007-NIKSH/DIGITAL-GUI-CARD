@@ -16,19 +16,19 @@ class CARD:
             self.root.destroy()
 
         # CARD
-        self.pic_1 = PhotoImage(file = "/home/niksh/Downloads/party.png")
+        self.pic_1 = PhotoImage(file = "party.png")
         pic1 = Label(self.root, image = self.pic_1)
         pic1.place(x = 150, y = 630)
 
-        self.pic_2 = PhotoImage(file = "/home/niksh/Downloads/popper.png")
+        self.pic_2 = PhotoImage(file = "popper.png")
         pic2 = Label(self.root, image = self.pic_2)
         pic2.place(x = 500, y = 630)
 
-        self.pic_3 = PhotoImage(file = "/home/niksh/Downloads/decor.png")
+        self.pic_3 = PhotoImage(file = "decor.png")
         pic3 = Label(self.root, image = self.pic_3)
         pic3.place(x = 50, y = 260)
 
-        self.pic_4 = PhotoImage(file = "/home/niksh/Downloads/quote.png")
+        self.pic_4 = PhotoImage(file = "quote.png")
         pic4 = Label(self.root, image = self.pic_4)
         pic4.place(x = 1000, y = 270)
 
